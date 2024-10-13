@@ -20,13 +20,6 @@ The objective of this assignment is to familiarize you with cloud storage servic
 <img width="1301" alt="azure8" src="https://github.com/user-attachments/assets/0b98f38e-7f0e-4c6f-9636-2893a3898860">
 
 
-
-
-
-
-
-
-
 - **GCP Cloud Storage:**
   - Access the Google Cloud Console and create a new Cloud Storage bucket.
   - Upload a similar sample file to the bucket using the GCP Console.
@@ -38,8 +31,17 @@ The objective of this assignment is to familiarize you with cloud storage servic
   - [Kaggle - Xray COVID images](https://www.kaggle.com/datasets/andyczhao/covidx-cxr2)
   - [NLM - Open Access Biomedical images search engine](https://openi.nlm.nih.gov/)
   - [Cancer - Imaging Archive](https://www.cancerimagingarchive.net/browse-collections/)
+- Using the Blob SAS URL I was able to retrieve the file I uploaded
+  <img width="1108" alt="azure8-upload" src="https://github.com/user-attachments/assets/09fd4e9d-11c3-4f38-8f45-fbd1ac6485e1">
+<img width="1501" alt="azure9-upload" src="https://github.com/user-attachments/assets/7a1d041e-48ff-4bbe-a0ff-f43c98d653ba">
+
 - **Azure Blob Storage:**
   - Write a Python script that uploads a file to the Blob container you created. Use the `azure-storage-blob` library to handle the upload.
+  - First error: load_dotenv() returned 'False'
+  ![colab error2](https://github.com/user-attachments/assets/67124156-ddfc-4ff3-9fe1-d7e3c9ac180f)
+
+
+
 - **GCP Cloud Storage:**
   - Write a Python script that uploads a file to the GCP Cloud Storage bucket you created. Use the `google-cloud-storage` library to handle the upload.
 
