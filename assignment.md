@@ -10,8 +10,23 @@ The objective of this assignment is to familiarize you with cloud storage servic
   - Navigate to the Azure portal and create a new Storage Account.
   - Create a Blob container within the Storage Account.
   - Upload a sample file (e.g., a text file or image) to the Blob container using the Azure portal.
+<img width="1420" alt="azure1" src="https://github.com/user-attachments/assets/77fdc4f2-a4f6-49f5-a96f-de2f9f3982d8">
+<img width="1518" alt="azure2" src="https://github.com/user-attachments/assets/324fac5a-e48d-4bb1-8c86-98425927829d">
+<img width="1509" alt="azure3" src="https://github.com/user-attachments/assets/90988ffb-973b-488b-bc8a-60b7d25d6204">
+<img width="770" alt="azure4" src="https://github.com/user-attachments/assets/30ad57f0-aa5c-44dc-80d7-9c7a76442997">
+<img width="856" alt="azure5" src="https://github.com/user-attachments/assets/0b15a114-99ba-4a00-a8d0-48797e1aa382">
+<img width="656" alt="azure6" src="https://github.com/user-attachments/assets/af892bbb-ed05-4a94-b6d0-15e22d0eba12">
+<img width="1084" alt="azure7" src="https://github.com/user-attachments/assets/27a90683-9e7e-4e99-a57d-245012931589">
+<img width="1301" alt="azure8" src="https://github.com/user-attachments/assets/0b98f38e-7f0e-4c6f-9636-2893a3898860">
 
-  - 
+
+
+
+
+
+
+
+
 - **GCP Cloud Storage:**
   - Access the Google Cloud Console and create a new Cloud Storage bucket.
   - Upload a similar sample file to the bucket using the GCP Console.
