@@ -46,18 +46,16 @@
 ### 3. Explore Storage Features
 - **Azure:**
   - Explore and document the options for managing and securing data in Azure Blob Storage (e.g., access policies, tiers).
+    - Azure has various options for managing and securing data: Shared access signatures, stored acceess policies and azure active directory.
+      - Shared access signatures provides limited access to storage account resources, withs epcific permissions (read, write, delete,etc) for a set period.
+      - Stored access policies is a group shared acess signatures setting that can help you managed access policies over multiple resources
+      - Azure active directory lets you have role-based access control.
+    - Storage tiers: Hot and cold. Hot tier is for active data usage and cool tier is for infrequent data acess.
 - **GCP:**
   - Explore and document the options for managing and securing data in GCP Cloud Storage (e.g., IAM permissions, lifecycle rules).
-
-### 4. Submit Your Work
-- Create a Markdown document that includes:
-  - Screenshots of the file upload process in both Azure Blob Storage and GCP Cloud Storage using the GUI.
-  - The Python code used to upload files to both Azure and GCP.
-  - Documentation of the storage management and security features you explored.
-- Commit and push this Markdown document, along with the screenshots and code, to your GitHub repository.
-
-## Deliverables
-- A Markdown document in a GitHub repository called `HHA504_assignment_storage` that includes:
-  - Screenshots of file uploads via GUI in Azure and GCP.
-  - Python code for uploading files to Azure Blob Storage and GCP Cloud Storage.
-  - Notes on storage management and security features in Azure and GCP.
+    - IAM (Identity and Access Management) permissions to control access to storage resources. You can assign roles such as Storage Admin and Storage Object Viewer to control acess level of read/write permissions.
+        - Buck and Object-level Permissions: Fine-grained access control can be applied at bucket or individual object levels.
+    - Lifecycle rules:
+      - Lifecycle Management: You can automatically move objectst between storage classes or delete them based on certain criteria by the rules you set.
+    - Encryption:
+      - Server-side encryption: data can be encrypted using Google-managed keys
